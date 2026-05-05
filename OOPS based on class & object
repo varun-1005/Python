@@ -1,0 +1,27 @@
+x="INDIA"
+class ace:
+  call="ace"
+  def give_details(self,a,b,c,d):
+    self.tot=a+b+c
+    self.name=d
+  def display(self):
+    print("1.NAME=",self.name)
+    print("2.MARK=",self.tot)
+    print("3.COUNTRY=",x)
+    print("4.COLLEGE=",ace.call)
+class bvrit:
+  call="bvrit"
+  def give_details(self,a,b,c,d):
+    self.tot=a+b+c
+    self.name=d
+  def display(self):
+    print("1.NAME=",self.name)
+    print("2.MARK=",self.tot)
+    print("3.COUNTRY=",x)
+    print("4.COLLEGE=",bvrit.call)
+a=ace()
+a.give_details(20,30,40,"Vijay")
+a.display()
+b=bvrit()
+b.give_details(30,40,50,"Teju")
+b.display()
